@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Image Slider Container dengan styling minimal -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            android:backgroundTint="#FFFFFF">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:adjustViewBounds="true" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Content Container -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="1dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp">
+
+                <!-- Header Section dengan garis bawah subtil -->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp">
+
+                    <!-- Merk dengan typography yang clean -->
+                    <TextView
+                        android:id="@+id/tvDetailMerk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Merk Produk"
+                        android:textStyle="bold"
+                        android:textSize="26sp"
+                        android:textColor="#212121"
+                        android:letterSpacing="0.01"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="8dp" />
+
+                    <!-- Harga dengan styling minimal -->
+                    <TextView
+                        android:id="@+id/tvDetailHarga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 0"
+                        android:textColor="#1976D2"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <!-- Garis pemisah subtil -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#E0E0E0"
+                        android:layout_marginTop="16dp" />
+
+                </LinearLayout>
+
+                <!-- Product Info Grid dengan desain minimal -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:weightSum="3">
+
+                    <!-- Stok Info Card -->
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="16dp"
+                        android:background="@drawable/subtle_border_background"
+                        android:layout_marginEnd="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stok"
+                            android:textSize="12sp"
+                            android:textColor="#757575"
+                            android:textStyle="normal"
+                            android:letterSpacing="0.05" />
+
+                        <TextView
+                            android:id="@+id/tvDetailStok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stok"
+                            android:textSize="16sp"
+                            android:textColor="#212121"
+                            android:textStyle="bold"
+                            android:layout_marginTop="4dp" />
+
+                    </LinearLayout>
+
+                    <!-- Kategori Info Card -->
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="16dp"
+                        android:background="@drawable/subtle_border_background"
+                        android:layout_marginHorizontal="4dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kategori"
+                            android:textSize="12sp"
+                            android:textColor="#757575"
+                            android:textStyle="normal"
+                            android:letterSpacing="0.05" />
+
+                        <TextView
+                            android:id="@+id/tvDetailKategori"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kategori"
+                            android:textSize="16sp"
+                            android:textColor="#212121"
+                            android:textStyle="bold"
+                            android:layout_marginTop="4dp" />
+
+                    </LinearLayout>
+
+                    <!-- View Count Info Card -->
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="16dp"
+                        android:background="@drawable/subtle_border_background"
+                        android:layout_marginStart="8dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dilihat"
+                            android:textSize="12sp"
+                            android:textColor="#757575"
+                            android:textStyle="normal"
+                            android:letterSpacing="0.05" />
+
+                        <TextView
+                            android:id="@+id/tvDetailViewCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dilihat: 0x"
+                            android:textSize="16sp"
+                            android:textColor="#212121"
+                            android:textStyle="bold"
+                            android:layout_marginTop="4dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Deskripsi Section dengan styling clean -->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="32dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi Produk"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#212121"
+                        android:layout_marginBottom="12dp"
+                        android:letterSpacing="0.01" />
+
+                    <TextView
+                        android:id="@+id/tvDetailDeskripsi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi produk"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:lineSpacingExtra="6dp"
+                        android:justificationMode="inter_word" />
+
+                </LinearLayout>
+
+                <!-- Tombol Beli dengan styling professional -->
+                <Button
+                    android:id="@+id/btnBeli"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Beli Sekarang"
+                    android:background="@drawable/button_selector"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.02"
+                    android:fontFamily="sans-serif-medium"
+                    android:elevation="0dp"
+                    android:stateListAnimator="@null" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

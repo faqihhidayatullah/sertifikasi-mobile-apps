@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <!-- Left Color Panel -->
+    <View
+        android:id="@+id/colorLeft"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorPrimaryVariant"
+        android:visibility="invisible" />
+
+    <!-- Right Color Panel -->
+    <View
+        android:id="@+id/colorRight"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+
+        android:background="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <!-- White Background untuk Logo -->
+    <View
+        android:id="@+id/whiteBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="invisible" />
+
+    <!-- Logo Container -->
+    <RelativeLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible">
+
+        <!-- Ganti dengan logo Anda -->
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"
+            android:scaleType="centerInside" />
+
+        <!-- Atau Text Logo -->
+
+    </RelativeLayout>
+
+</RelativeLayout>

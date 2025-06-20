@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless">
+
+        <!-- Product Image with rounded corners -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:id="@+id/imgProduct"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop"
+                android:background="@color/grey_100" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <!-- Product Name with better typography -->
+            <TextView
+                android:id="@+id/tvProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Premium Coffee Beans"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:lineSpacingExtra="2dp" />
+
+            <!-- Price with better styling -->
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Rp 125.000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color" />
+
+            <!-- Quantity Controls with improved design -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical">
+
+                <!-- Quantity Control Container -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/quantity_background"
+                    android:gravity="center_vertical">
+
+                    <!-- Decrease Button -->
+                    <ImageButton
+                        android:id="@+id/btnDecrease"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_minuss"
+                        android:contentDescription="Decrease quantity"
+                        app:tint="@color/text_secondary" />
+
+                    <!-- Quantity Display -->
+                    <TextView
+                        android:id="@+id/tvQuantity"
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary"
+                        android:gravity="center" />
+
+                    <!-- Increase Button -->
+                    <ImageButton
+                        android:id="@+id/btnIncrease"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_add"
+                        android:contentDescription="Increase quantity"
+                        app:tint="@color/text_secondary" />
+                </LinearLayout>
+
+                <!-- Spacer -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <!-- Remove Button with icon -->
+                <ImageButton
+                    android:id="@+id/btnRemove"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_delete"
+                    android:contentDescription="Remove item"
+                    app:tint="@color/error_color" />
+            </LinearLayout>
+
+            <!-- Subtotal with better positioning -->
+            <TextView
+                android:id="@+id/tvSubtotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Subtotal: Rp 250.000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:gravity="end" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

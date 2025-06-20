@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tersedia">#4CAF50</color> <!-- Hijau -->
+    <color name="tidak_tersedia">#F44336</color> <!-- Merah -->
+    <color name="kategori_selected">#FF9800</color> <!-- warna oranye -->
+    <color name="kategori_default">#E0E0E0</color> <!-- warna abu default -->
+    <color name="kategori_text_selected">#FFFFFF</color>
+    <color name="kategori_text_default">#000000</color>
+    <color name="colorPrimary">#6B4226</color> <!-- Coklat Tua -->
+    <color name="colorPrimaryDark">#4E2F1B</color> <!-- Lebih gelap -->
+    <color name="colorAccent">#D4AF37</color> <!-- Emas -->
+
+
+    <color name="background_gradient">#F5F7FA</color>
+    <color name="text_primary">#2D3748</color>
+    <color name="red_500">#EF4444</color>
+    <color name="red_100">#FEE2E2</color>
+    <color name="purple_300">#C084FC</color>
+    <color name="error_color">#F44336</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="background_light">#F7FAFC</color>
+
+    <color name="text_secondary">#2D3748</color>
+    <color name="text_muted">#718096</color>
+    <color name="card_background">#F7FAFC</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="blue">#2196F3</color>
+    <!-- Warna untuk background -->
+    <color name="light_gray">#D3D3D3</color>
+    <!-- Warna untuk teks gelap -->
+    <color name="dark_gray">#A9A9A9</color>
+    <!-- Warna untuk teks utama -->
+    <color name="primary_color">#2196F3</color>
+    <color name="colorPrimaryVariant">#A05775</color>
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- teks di atas tombol -->
+
+</resources>
