@@ -6,11 +6,11 @@
     import androidx.navigation.Navigation;
     import androidx.navigation.ui.AppBarConfiguration;
     import androidx.navigation.ui.NavigationUI;
-
+    import com.example.sertifikasi.R;
     import com.denzcoskun.imageslider.ImageSlider;
     import com.denzcoskun.imageslider.constants.ScaleTypes;
     import com.denzcoskun.imageslider.models.SlideModel;
-    import com.example.product_bottomnav.databinding.ActivityMainBinding;
+    import com.example.sertifikasi.databinding.ActivityMainBinding;
     import com.google.android.material.bottomnavigation.BottomNavigationView;
 
     import java.util.ArrayList;

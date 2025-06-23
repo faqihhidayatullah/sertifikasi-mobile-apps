@@ -1,7 +1,7 @@
 package com.example.product_bottomnav.ui.dashboard;
 
 import static androidx.core.content.ContentProviderCompat.requireContext;
-
+import com.example.sertifikasi.R;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
@@ -31,7 +31,7 @@ import com.example.product_bottomnav.ApiClient;
 import com.example.product_bottomnav.ApiService;
 import com.example.product_bottomnav.CheckoutSuccesActivity;
 import com.example.product_bottomnav.LoginActivity;
-import com.example.product_bottomnav.R;
+
 import com.example.product_bottomnav.ResponsePromo;
 import com.example.product_bottomnav.UserProfile;
 import com.google.gson.Gson;

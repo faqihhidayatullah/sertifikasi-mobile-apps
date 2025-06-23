@@ -14,8 +14,8 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 
-import com.example.product_bottomnav.R;
-import com.example.product_bottomnav.databinding.FragmentProductBinding;
+import com.example.sertifikasi.R;
+import com.example.sertifikasi.databinding.FragmentProductBinding;
 import com.example.product_bottomnav.ui.dashboard.OrderHelper;
 import com.google.android.material.button.MaterialButton;
 

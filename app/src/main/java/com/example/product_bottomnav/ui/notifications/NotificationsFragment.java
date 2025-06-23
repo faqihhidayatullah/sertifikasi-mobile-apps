@@ -20,7 +20,7 @@ import androidx.navigation.Navigation;
 import com.airbnb.lottie.LottieAnimationView;
 import com.bumptech.glide.Glide;
 import com.example.product_bottomnav.LoginActivity;
-import com.example.product_bottomnav.R;
+import com.example.sertifikasi.R;
 import com.example.product_bottomnav.ApiClient;
 import com.example.product_bottomnav.ApiService;
 import com.example.product_bottomnav.UserProfile;

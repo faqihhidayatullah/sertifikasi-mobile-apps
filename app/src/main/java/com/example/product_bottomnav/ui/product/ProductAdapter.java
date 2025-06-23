@@ -21,7 +21,7 @@
     import com.bumptech.glide.Glide;
     import com.example.product_bottomnav.ApiClient;
     import com.example.product_bottomnav.DetailProductActivity;
-    import com.example.product_bottomnav.R;
+    import com.example.sertifikasi.R;
 
     import java.util.ArrayList;
     import java.util.List;

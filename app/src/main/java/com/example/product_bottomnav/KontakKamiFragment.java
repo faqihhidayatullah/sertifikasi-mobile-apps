@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.product_bottomnav.R;
+import com.example.sertifikasi.R;
 
 public class KontakKamiFragment extends Fragment {
 

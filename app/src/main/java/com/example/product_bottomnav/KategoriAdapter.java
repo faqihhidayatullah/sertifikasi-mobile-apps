@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.example.sertifikasi.R;
 
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;

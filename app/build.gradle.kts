@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.product_bottomnav"
+    namespace = "com.example.sertifikasi"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.product_bottomnav"
+        applicationId = "com.example.sertifikasi"
         minSdk = 27
         targetSdk = 34
         versionCode = 1

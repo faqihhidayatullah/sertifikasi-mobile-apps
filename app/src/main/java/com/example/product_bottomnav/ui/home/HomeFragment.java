@@ -28,7 +28,7 @@ import com.example.product_bottomnav.FlashSaleAdapter;
 import com.example.product_bottomnav.Kategori;
 import com.example.product_bottomnav.KategoriAdapter;
 import com.example.product_bottomnav.ProductByKategoriActivity;
-import com.example.product_bottomnav.R;
+import com.example.sertifikasi.R;
 import com.example.product_bottomnav.ui.dashboard.OrderHelper;
 import com.example.product_bottomnav.ui.product.Product;
 

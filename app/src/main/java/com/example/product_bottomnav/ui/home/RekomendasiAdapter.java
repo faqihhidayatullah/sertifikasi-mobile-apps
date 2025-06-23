@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.product_bottomnav.DetailProductActivity;
-import com.example.product_bottomnav.R;
+import com.example.sertifikasi.R;
 import com.example.product_bottomnav.ui.product.Product;
 
 import java.util.List;
